@@ -83,7 +83,7 @@ html,body
     font-weight: bold;
     font-size: 30px;
     color: white;
-    font-family: "Playpen Sans", cursive;
+    font-family: "Asap", sans-serif;
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 #BMenu #Home:hover a,#Shop:hover a, #About:hover a, #Contact:hover a{
