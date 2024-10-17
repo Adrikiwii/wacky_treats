@@ -125,6 +125,68 @@ html,body
     background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=4e008a);
 }
 
+#social-media, #contact-info {
+    display: flex;
+    align-items: center;
+    color: #ffd5cc;
+    margin: 10px;
+}
+
+#social-media a {
+    color: #FFD5CC;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#social-media img, #contact-info img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.contact{
+    background-color:#FFD5CC;
+    max-width : 500px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.contact h1{
+    font-size: 20px;
+}
+
+.contact .separation{
+    width: 100%;
+    height: 1px;
+    background-color::#e06a50;
+}
+.contact .corps-formulaire{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.contact .corps-formulaire .boite{
+    position: relative;
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+}
+.contact .corps-formulaire .gauche .boite input{
+    margin-top:5px;
+    padding:10px 5px 10px 20px;
+    border: 1px solid #c9c9c9;
+    outline-color:#e06a50;
+    border-radius: 5px;
+}
+
+.contact .corps-formulaire .gauche .boite i{
+    position: absolute;
+    left:0;
+    top: 25px;
+    padding: 9px 8px;
+    color:#e06a50;
+}
 
 /* FIN BODY */
 
@@ -146,25 +208,6 @@ footer a {
     font-style: italic;
     color: #ffd5cc;
     margin-right: 10px;
-}
-
-#social-media, #contact-info {
-    display: flex;
-    align-items: center;
-    color: #ffd5cc;
-    margin: 10px;
-}
-
-#social-media a {
-    color: #FFD5CC;
-    text-decoration: none;
-    font-style: italic;
-}
-
-#social-media img, #contact-info img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
 }
 
 /* FIN FOOTER */
