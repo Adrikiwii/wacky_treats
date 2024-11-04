@@ -185,6 +185,46 @@ html,body
     color:#e06a50;
 }
 
+.contact .corps-formulaire .droite{
+    margin-left: 40px;
+}
+
+.contact .corps-formulaire .droite .boite{
+    height:100%;
+}
+ .contact .corps-formulaire .droite .boite textearea{
+    margin-top:5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border:2px solid #e06a50;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+ }
+
+ .contact .pied-formulaire button{
+    margin-top: 10px;
+    background-color:#e06a50;
+    color:white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0,5s;
+ }
+ .contact .pied-formulaire button:hover{
+    transform: scale(1,05);
+ }
+
+ @media screen and (max-width:920px){
+    .contact .corps-formulaire .droite{
+        margin-left: 0px;
+    }
+ }
+
 /* FIN BODY */
 
 
