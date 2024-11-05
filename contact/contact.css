@@ -89,6 +89,7 @@ html,body
     margin-right: 5px;
     background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=4e008a);
     background-size: cover;
+    filter: drop-shadow(0px 0px 4px #9c27f6);
     transition: background-image 0.3s ease-in-out;
 }
 #BMenu #Contact a
@@ -110,16 +111,20 @@ html,body
 }
 #BMenu #Home:hover #Home_img{
     background-image: url(https://img.icons8.com/?size=100&id=BE56i0LQZMIW&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #Shop:hover #Shop_img{
     background-image: url(https://img.icons8.com/?size=100&id=KqV6G325egdQ&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 
 #BMenu #About:hover #About_img{
     background-image: url(https://img.icons8.com/?size=100&id=H4a2nRn9FpDQ&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #Contact:hover #Contact_img{
     background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 
 #social-media, #contact-info {

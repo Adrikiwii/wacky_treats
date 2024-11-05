@@ -71,9 +71,15 @@ html,body
     width: 45px;
     height: 45px;
     margin-right: 5px;
-    background-image: url(https://img.icons8.com/?size=100&id=KqV6G325egdQ&format=png&color=FFFFFF);
+    background-image: url(https://img.icons8.com/?size=100&id=KqV6G325egdQ&format=png&color=4e008a);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(0px 0px 4px #9c27f6);
+}
+#BMenu #Shop a
+{
+    color: #4e008a;
+    text-shadow: 0 0 10px #c16fff, 0 0 20px #c16fff, 0 0 30px #c16fff;
 }
 #About_img{
     width: 45px;
@@ -87,14 +93,9 @@ html,body
     width: 45px;
     height: 45px;
     margin-right: 5px;
-    background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=4e008a);
+    background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=FFFFFF);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
-}
-#BMenu #Contact a
-{
-    color: #4e008a;
-    text-shadow: 0 0 10px #c16fff, 0 0 20px #c16fff, 0 0 30px #c16fff;
 }
 #BMenu a{
     text-decoration: none;
@@ -110,16 +111,20 @@ html,body
 }
 #BMenu #Home:hover #Home_img{
     background-image: url(https://img.icons8.com/?size=100&id=BE56i0LQZMIW&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #Shop:hover #Shop_img{
     background-image: url(https://img.icons8.com/?size=100&id=KqV6G325egdQ&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 
 #BMenu #About:hover #About_img{
     background-image: url(https://img.icons8.com/?size=100&id=H4a2nRn9FpDQ&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #Contact:hover #Contact_img{
     background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=4e008a);
+    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 
 #social-media, #contact-info {
