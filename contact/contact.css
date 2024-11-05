@@ -142,6 +142,7 @@ html,body
 }
 
 .contact{
+    margin: auto;
     background-color:#FFD5CC;
     max-width : 500px;
     padding: 30px;
@@ -179,7 +180,7 @@ html,body
 
 .contact .corps-formulaire .gauche .boite i{
     position: absolute;
-    left:0;
+    left:-4px;
     top: 25px;
     padding: 9px 8px;
     color:#e06a50;
@@ -202,6 +203,11 @@ html,body
     resize: none;
     height: 72%;
  }
+ .droite textarea{
+    height: 81%;
+    width: 150%;
+    resize: none;
+ }
 
  .contact .pied-formulaire button{
     margin-top: 10px;
@@ -216,7 +222,7 @@ html,body
     transition: transform 0,5s;
  }
  .contact .pied-formulaire button:hover{
-    transform: scale(1,05);
+    transform: scale(1,1.2);  
  }
 
  @media screen and (max-width:920px){
