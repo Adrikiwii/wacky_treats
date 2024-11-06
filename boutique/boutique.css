@@ -153,14 +153,53 @@ html,body
     margin: 10px;
     padding-bottom: 5%;
 }
+#header_boutique{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    color: white;
+    font-family: "Asap", sans-serif;
+}
+#user, #panier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background: #fca693;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    cursor: pointer;
+}
+#user:hover,#panier:hover{
+    background: #ffd5cc;
+}
+#user:active,#panier:active{
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+#header_boutique img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
 #liste{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    font-family: "Asap", sans-serif;
 }
 #article{
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
