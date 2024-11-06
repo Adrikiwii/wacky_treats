@@ -1,3 +1,2 @@
-# weaky_treats
-<h1>Projet TS1SIO</h1>
-<img src="img/">
+<h1>Wacky Treats</h1>
+<img src="img/image1.png">
