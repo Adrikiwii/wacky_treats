@@ -162,7 +162,7 @@ html,body
     color: white;
     font-family: "Asap", sans-serif;
 }
-#user, #panier{
+#header_boutique #user, #header_boutique #panier{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,10 +177,10 @@ html,body
     box-shadow: #422800 4px 4px 0 0;
     cursor: pointer;
 }
-#user:hover,#panier:hover{
+#header_boutique #user:hover,#header_boutique #panier:hover{
     background: #ffd5cc;
 }
-#user:active,#panier:active{
+#header_boutique #user:active,#header_boutique #panier:active{
     box-shadow: #422800 2px 2px 0 0;
     transform: translate(2px, 2px);
 }
@@ -199,7 +199,6 @@ html,body
     font-family: "Asap", sans-serif;
 }
 #article{
-    
     width: 250px;
     display: flex;
     flex-direction: column;
