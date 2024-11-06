@@ -85,7 +85,6 @@ html,body
     background-image: url(https://img.icons8.com/?size=100&id=H4a2nRn9FpDQ&format=png&color=4e008a);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
-    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #About a
 {
@@ -116,20 +115,16 @@ html,body
 }
 #BMenu #Home:hover #Home_img{
     background-image: url(https://img.icons8.com/?size=100&id=BE56i0LQZMIW&format=png&color=4e008a);
-    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #Shop:hover #Shop_img{
     background-image: url(https://img.icons8.com/?size=100&id=KqV6G325egdQ&format=png&color=4e008a);
-    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 
 #BMenu #About:hover #About_img{
     background-image: url(https://img.icons8.com/?size=100&id=H4a2nRn9FpDQ&format=png&color=4e008a);
-    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 #BMenu #Contact:hover #Contact_img{
     background-image: url(https://img.icons8.com/?size=100&id=bvXrXfnimMOf&format=png&color=4e008a);
-    filter: drop-shadow(0px 0px 4px #9c27f6);
 }
 
 /* FIN BODY */
@@ -138,9 +133,7 @@ html,body
 /* DEBUT FOOTER */
 
 footer {
-    position: fixed;
-    left: 0;
-    right: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #fca693;
