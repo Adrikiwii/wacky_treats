@@ -136,20 +136,31 @@ html,body
 }
 
 #texte {
+    position: relative;
     padding: 20px; /* Espacement interne */
     margin: 20px; /* Marges */
-    background-color: #fff; /* Couleur de fond */
+    background-color: rgba(254, 187, 172, 0.5); /* Couleur de fond */
     border-radius: 10px; /* Bordures arrondies */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre */
+    margin-bottom: 5%;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
 }
 
 #texte h1 {
+    margin-left: 45%;
     font-size: 24px; /* Taille de la police */
     color: #4e008a; /* Couleur du texte */
     margin-bottom: 10px; /* Marge inférieure */
 }
+#paragraphe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
 #texte p {
+    margin-left: 10px;
     font-size: 16px; /* Taille de la police */
     color: #333; /* Couleur du texte */
     line-height: 1.5; /* Hauteur de ligne */
@@ -168,7 +179,9 @@ html,body
 /* DEBUT FOOTER */
 
 footer {
-    position: absolute;
+    position: fixed;;
+    left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     background-color: #fca693;
