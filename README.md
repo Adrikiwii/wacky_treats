@@ -1,2 +1,3 @@
 # weaky_treats
-Projet TS1SIO
+<h1>Projet TS1SIO</h1>
+<img src="img/">
