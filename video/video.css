@@ -137,7 +137,9 @@ html,body
     display: block; /* Affichage en bloc */
     margin: 20px auto; /* Marges automatiques */
     border-radius: 10px; /* Bordures arrondies */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre */
+     /* Ombre */
+    border: 2px solid #422800;
+    box-shadow: rgb(252, 149, 126) 4px 4px 0 0;
 }
 
 #texte {
